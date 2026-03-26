@@ -1,0 +1,10 @@
+{
+  "app_name": "MyApp",
+  "version": "1.0.0",
+  "author": "Mohammad Mahfuz Rahman",
+  "files": [
+    "/media/kali/Software Engineering/Python Projects/python-package-builder/dist/ppb"
+  ],
+  "license_file": "/media/kali/Software Engineering/Python Projects/python-package-builder/LICENSE",
+  "output_file": "/media/kali/Software Engineering/Python Projects/SetupCompiler/dist/myApp.mmr"
+}

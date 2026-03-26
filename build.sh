@@ -1,0 +1,1 @@
+pyinstaller src/setupCompiler.py --onefile --icon src/assets/compiler.png --noconsole --hidden-import=Crypto && pyinstaller src/setupInstaller.py --onefile --icon src/assets/compiler.png --noconsole --hidden-import=Crypto

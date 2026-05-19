@@ -9,4 +9,9 @@ dependencies = [
     "pycryptodome>=3.23.0",
     "pyinstaller>=6.20.0",
     "pyqt5>=5.15.11",
+    "taskipy>=1.14.1",
 ]
+
+[tool.taskipy.tasks]
+build-compiler = "uv run pyinstaller src/setupCompiler.py --onefile --icon src/assets/compiler.png --noconsole --hidden-import=Crypto"
+build-installer = "uv run pyinstaller src/setupInstaller.py --onefile --icon src/assets/compiler.png --noconsole --hidden-import=Crypto"
